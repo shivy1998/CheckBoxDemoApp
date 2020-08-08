@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+    <TextView
+        android:text="Came to know about us from : "
+        android:textSize="28dp"
+        android:textColor="#009688"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "20dp"
+        android:layout_gravity="center"
+        />
+    <CheckBox
+        android:text="Friends"
+        android:textSize="30dp"
+        android:textColor="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/cbFriends"
+        />
+    <CheckBox
+        android:text="Website"
+        android:textSize="30dp"
+        android:textColor="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/cbWebsite"
+        />
+    <CheckBox
+        android:text="NewsPaper"
+        android:textSize="30dp"
+        android:textColor="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/cbNewsPaper"
+        />
+    <CheckBox
+        android:text="Others"
+        android:textSize="30dp"
+        android:textColor="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/cbOthers"
+        />
+    <Button
+        android:text="Submit"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/btnSubmit"
+        />
+</LinearLayout>
